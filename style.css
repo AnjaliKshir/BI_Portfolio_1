@@ -16,6 +16,7 @@ html,body{
     overflow:hidden;
     display: flex;
     flex-direction: column;
+    
 }
 
 #page{
@@ -23,6 +24,8 @@ html,body{
     height: 100vh;
     width: 100vw;
     background-color: #fff;
+    margin-top: -10%;
+    
 }
 
 #page>img{
@@ -102,7 +105,7 @@ html,body{
 
 #page1{
     position: relative;
-    height: 100vh;
+    height: 60vh;
     width:100vw;
     background-color: #FFB3B3;
     margin-top: 60px;
@@ -114,13 +117,13 @@ html,body{
     height:100%%;
     width:36%;
     top:50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%); 
 }
 
 #left>.box{
     border-top: 2px solid #4F200D;
     color: #4F200D;
-    justify-content: space-between
+    justify-content: space-between;
     height:100%;
     width:100%;
     padding: 10px;
@@ -129,24 +132,29 @@ html,body{
 
 
 #text1{
-    margin: 50px 50px;
+    margin: 50px 80px;
+    top:20%;
     position: absolute;
     height: 30%;
     width: 50%;
     z-index: 9;
     color: #4F200D;
+   
+    padding: 30px 68px;
 }
 
 #text1>h1{
     font-size: 60px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    top:100px;
 }
 
 #text1>h4{
-    font-size: 30px;
+    font-size: 17px;
     font-weight: 500;
     margin-top: 50px;
     width: 70%;
+    margin-top: 30px;
 }
 
 #page2{
@@ -244,19 +252,36 @@ html,body{
     width:30%;
 }
 
+#image1:hover{
+
+    transform: scale(1.2);
+    transition: 0.3s ease;
+}
+
 .project_p2>#image2>img{
     /* position:relative;
     top:-20%; */
     height: 100%;
     width:30%; 
-   
 }
+
+#image2:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease;
+}
+
+
 
 .project_p3>#image3>img{
     /* position: relative;
     top:-50%; */
     height: 100%;
     width:30%;
+}
+
+#image3:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease;
 }
 
 #text4{
