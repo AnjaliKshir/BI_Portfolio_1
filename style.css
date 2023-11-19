@@ -7,8 +7,6 @@
 
 html,body{
     min-height: 100vh;
-    /* height: 100%;
-    width: 100%; */
 }
 
 #main{
@@ -145,7 +143,6 @@ html,body{
 
 #text1>h1{
     font-size: 60px;
-    /* margin-top: 20px; */
     top:100px;
 }
 
@@ -170,12 +167,7 @@ html,body{
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    /* left:5%; */
-     
     bottom:15%;
-    /* transform: translateX(-50%); */
-   
-    /* border-top: 2px solid #4F200D; */
     height: 50%;
     width:9%;
     color: #4F200D;
@@ -184,68 +176,28 @@ html,body{
 .project_p1{
     border-top: 2px solid #4F200D;
     padding: 10px;
-    /* height: 100%;
-    width:30%; */
-
 }
-/* .project_p1>img{
-    position:relative;
-    height:20px;
-    width: 30px;
-} */
+
 .project_p2{
     border-top: 6px solid #4F200D;
     border-top-style:dotted;
-    
     padding: 10px;
-    /* height: 100%;
-    width:30%; */
-
+    
 }
-/* .project_p2>img{
-    position:relative;
-    height:200px;
-    width: 300px;
-} */
+
 .project_p3{
     border-top: 2px solid #4F200D;
     padding: 10px;
-    /* height: 100%;
-    width:30%; */
-
 }
-/* .project_p3>img{
-    position:relative;
-    height:50px;
-    width: 30px;
-} */
-/* 
-.projects{
-    border-top: 2px solid #4F200D;
-    height: 100%;
-    width:30%;
-} */
+
 
 #text3{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    /* height:30%;
-    width: 100%; */
     padding: 20px;
 }
-
-/* #image{
-    height: 70%;
-    width:100%;
-}
-
-#image>img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-} */
 
 .project_p1>#image1>img{
     height: 100%;
@@ -259,8 +211,7 @@ html,body{
 }
 
 .project_p2>#image2>img{
-    /* position:relative;
-    top:-20%; */
+
     height: 100%;
     width:30%; 
 }
@@ -273,8 +224,7 @@ html,body{
 
 
 .project_p3>#image3>img{
-    /* position: relative;
-    top:-50%; */
+   
     height: 100%;
     width:30%;
 }
@@ -285,11 +235,7 @@ html,body{
 }
 
 #text4{
-    /* position: absolute;
-    top: 10%;
-    left:5%;
-    height: 20%;
-    width:30%; */
+ 
     margin: 50px 50px;
     position: absolute;
     height: 30%;
